@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571207608383",
+    "project_id": "enterprise-resource-plan-f7d7b",
+    "storage_bucket": "enterprise-resource-plan-f7d7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571207608383:android:a7ce7defba6c7484b3708a",
+        "android_client_info": {
+          "package_name": "com.enterprise_resource_planning.enterprise_resource_planning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571207608383-713gg6psasq3dvcl88leko8tdvinrlfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBajpHtqsT7m3ytYcp4z9ZRkEztEBDo6bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571207608383-713gg6psasq3dvcl88leko8tdvinrlfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
