@@ -6,9 +6,9 @@ part 'list_invoice_item.g.dart';
 class InvoiceItem {
   String invoiceItemId;
   String productName;
-  String quantity;
-  String unitPrice;
-  String totalAmount;
+  double quantity;
+  double unitPrice;
+  double totalAmount;
 
   InvoiceItem({
     required this.invoiceItemId,

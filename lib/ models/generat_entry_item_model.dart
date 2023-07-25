@@ -1,6 +1,6 @@
 
 import 'package:json_annotation/json_annotation.dart';
-part 'generat_entry_item_model.g.dart';
+//part 'generat_entry_item_model.g.dart';
 
 
 @JsonSerializable()
@@ -15,8 +15,8 @@ class EntryItem {
     required this.credit,
   });
 
-  factory EntryItem.fromJson(Map<String, dynamic> json) =>
-      _$EntryItemFromJson(json);
-  Map<String, dynamic> toJson() => _$EntryItemToJson(this);
+  // factory EntryItem.fromJson(Map<String, dynamic> json) =>
+  //     _$EntryItemFromJson(json);
+  // Map<String, dynamic> toJson() => _$EntryItemToJson(this);
 
 }

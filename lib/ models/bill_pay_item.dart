@@ -6,11 +6,17 @@ class BillPayItem {
   String billId;
   double dueAmount;
   DateTime dueDate;
+  String productName;
+  double productQuantity;
+  double productUnitCost;
 
   BillPayItem({
     required this.dueDate,
     required this.billId,
     required this.dueAmount,
+    required this.productName,
+    required this.productQuantity,
+    required this.productUnitCost,
   });
 
   factory BillPayItem.fromJson(Map<String, dynamic> json) =>
