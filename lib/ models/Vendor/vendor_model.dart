@@ -15,6 +15,7 @@ class VendorModel {
   VendorAddressModel vendorAddressModel;
   VendorPaymentTerms vendorPaymentTerms;
   List<VendorTransactionModel> transactions;
+  String contactPerson;
 
   VendorModel(
       {required this.vendorId,
@@ -29,7 +30,8 @@ class VendorModel {
       required this.vendorMobile,
       required this.vendorName,
       required this.vendorPhone,
-      required this.transactions});
+      required this.transactions,
+      required this.contactPerson});
 }
 
 class VendorAddressModel {
